@@ -65,6 +65,9 @@ export default function Home() {
           </div>
           <TransactionList transactions={sortedTransactions} categories={categories} />
         </section>
+        <footer className="mt-12 border-t pt-6 pb-4 text-center text-sm text-muted-foreground">
+          Hecho con mucho ❤️ en un live de Platzi
+        </footer>
       </div>
     </div>
   );
